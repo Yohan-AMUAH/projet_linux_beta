@@ -224,6 +224,9 @@ if menu_id == "Price Data":
         resultats = pd.read_csv("resultats.csv")
         st.dataframe(resultats)
 
+        st.write("the annual return of this action is", resultats["annual_return"][0] , "%")
+        st.write("The Standard deviation of this action is", resultats["standard_deviation"][0], "%")
+
     else:
         st.write("vous devez cliquer sur le boutton Visualiser les résultats pour accéder aux résultats")
 
