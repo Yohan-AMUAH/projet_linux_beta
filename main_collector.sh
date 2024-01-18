@@ -14,6 +14,7 @@ periode="$3"
 
 
 # Scraper les données
+chmod +x scraping_yahoo_finance_final.sh
 ./scraping_yahoo_finance_final.sh ${ticker} ${frequence} ${periode}
 
 
@@ -21,7 +22,8 @@ periode="$3"
 
 
 ##########################################################################
-
+chmod +x main_processor.py
+python3 main_processor.py
 
 
 sudo apt-get update
@@ -30,8 +32,3 @@ pip install -r requirements.txt
 
 
 streamlit run App_streamlit_Linux_baseline.py --server.port 9191
-
-
-
-
-
