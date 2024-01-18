@@ -14,4 +14,4 @@ periode="$3"
 
 
 # Utiliser curl pour télécharger le contenu avec les arguments spécifiés
-curl -o "historical_data.csv" "https://query1.finance.yahoo.com/v7/finance/download/${ticker}?range=${periode}&interval=${frequence}&events=history&includeAdjustedClose=true"
+curl -o "./historical_data.csv" "https://query1.finance.yahoo.com/v7/finance/download/${ticker}?range=${periode}&interval=${frequence}&events=history&includeAdjustedClose=true"
