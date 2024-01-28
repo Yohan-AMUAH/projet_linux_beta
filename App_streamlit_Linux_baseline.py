@@ -22,7 +22,7 @@ st.markdown("<h4 style='text-align: center; background-color: #000045; color: #e
 
 
 menu_data = [
-    
+
     {'label':"Price Data"},
 ]
 
@@ -134,7 +134,7 @@ if menu_id == "Home":
 
 
 if menu_id == "Price Data":
-    
+
     #definition des sidebars
     st.title("Stock Price Predictor")
 
@@ -196,7 +196,7 @@ if menu_id == "Price Data":
         #Scraping_Yahoo_finance.syf(ticker,frequency,start_date,end_date)
         #Scraping_Yahoo_f.syf(ticker,frequency,start_date,end_date)
 
-    #Chargement du fichier des données 
+    #Chargement du fichier des données
 
     importer=st.button("Visualiser les résultats")
 
@@ -229,4 +229,3 @@ if menu_id == "Price Data":
 
     else:
         st.write("vous devez cliquer sur le boutton Visualiser les résultats pour accéder aux résultats")
-
