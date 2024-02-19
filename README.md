@@ -23,7 +23,9 @@ docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh <Ticker_de_l_act
 
 ## IMPORTANT !
 <Ticker_de_l_action> : symbole utilisé pour décrire une action sur les marchés financiers
-<fréquence_des_donnees> : la fréquence d'appirition des données (jour: 1d, semaine:1wk, mois:1mo, trimestre:3mo, année:1y)
+
+<fréquence_des_donnees> : la fréquence d'apparition des données (jour: 1d, semaine:1wk, mois:1mo, trimestre:3mo, année:1y)
+
 <le_nombre_d_annees_de_donnees_a_telecharger> : l'horizon temporelle 
 
 ## Exemples
