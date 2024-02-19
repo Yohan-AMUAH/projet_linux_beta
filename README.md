@@ -46,6 +46,10 @@ Une fois cette commande exécutée, il vous est renvoyé l'**url du Streamlit** 
   
   servira à scraper les données  **trimestrielles** de l'action **APPLE** sur **100 années**.
 
+  Et le lien suivant est renvoyé, dans notre cas:
+
+  **http://40.68.93.181:9191/**
+
 
 ## GITHUB ASSOCIE:
 
