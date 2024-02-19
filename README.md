@@ -36,7 +36,7 @@ docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh <Ticker_de_l_act
 
 * pour la fréquence, si vous voulez des données trimestrielles, vous mettrez "3mo"
 
-* Et si , vous voulez collecter ce données sur 200 ans , il faudrait ajouter "200y"
+* Et si vous voulez collecter ces données sur 200 ans , il faudrait ajouter "200y"
 
 * Finalment, la commande:
   
