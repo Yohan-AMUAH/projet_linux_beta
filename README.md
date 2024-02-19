@@ -21,6 +21,8 @@ Une fois, l'image téléchargée, il vous faut monter et créer le container de 
 
 **docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh <Ticker_de_l_action> <fréquence_des_donnees> <le_nombre_d_annees_de_donnees_a_telecharger>**
 
+Une fois cette commande exécutée, il vous est renvoyé l'**url du Streamlit** que vous devez copier et coller dans votre **navigateur** pour avoir accès à l'application.
+
 ## IMPORTANT !
 <**Ticker_de_l_action**> : symbole utilisé pour décrire une action sur les marchés financiers
 
