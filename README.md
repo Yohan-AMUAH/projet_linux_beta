@@ -34,7 +34,7 @@ docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh <Ticker_de_l_act
 
 * Il est aussi possible de scrapper les données de cryptomonnaies BTC-USD pour le bitcoin; ETH-USD pour l'Ethereum USD; etc.
 
-* pour la fréquence, si je veux des données trimestrielles, je mettrai "3mo"
+* pour la fréquence, si vous voulez des données trimestrielles, vous mettrez "3mo"
 
 * Et si , vous voulez collecter ce données sur 200 ans , il faudrait ajouter "200y"
 
