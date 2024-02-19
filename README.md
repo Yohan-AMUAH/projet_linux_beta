@@ -24,7 +24,7 @@ Une fois, l'image téléchargée, il vous faut monter et créer le container de 
 ## IMPORTANT !
 <**Ticker_de_l_action**> : symbole utilisé pour décrire une action sur les marchés financiers
 
-<**fréquence_des_donnees**> : la fréquence d'apparition des données (jour: 1d, semaine:1wk, mois:1mo, trimestre:3mo, année:1y)
+<**fréquence_des_donnees**> : la fréquence d'apparition des données (jour: 1d, semaine:1wk, mois:1mo, trimestre:3mo)
 
 <**le_nombre_d_annees_de_donnees_a_telecharger**> : l'horizon temporelle 
 
