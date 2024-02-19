@@ -11,22 +11,22 @@ L'équipe InvestAI.
 ## Comment obtenir l'application?
 
 Pour obtenir l'application, il n'y a rien de plus simple.
-Notre équipe de développeurs a fait montre de son talent en déployant l'application sur le Hub de l'entreprise Docker (Docker Hub) de sorte qu'elle soit accessible à toute personne depuis n'importe quel endroit du globe et à tout moment.
-En effet, le docker est hebergé sur l'addresse suivante : https://hub.docker.com/repository/docker/yohanamuah/investai/general
+Notre équipe de développeurs a fait montre de son talent en déployant l'application sur le Hub de l'entreprise Docker (**Docker Hub**) de sorte qu'elle soit accessible à toute personne depuis n'importe quel endroit du globe et à tout moment.
+En effet, le docker est hebergé sur l'addresse suivante : **https://hub.docker.com/repository/docker/yohanamuah/investai/general**
 
 Depuis un terminal linux, il vous suffit de télécharger l'image docker en utilisant la commande suivante:
-docker pull yohanamuah/investai .
+**docker pull yohanamuah/investai** .
 
 Une fois, l'image téléchargée, il vous faut monter et créer le container de l'image, en utilsant la comande suivante:
 
-docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh <Ticker_de_l_action> <fréquence_des_donnees> <le_nombre_d_annees_de_donnees_a_telecharger>
+**docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh <Ticker_de_l_action> <fréquence_des_donnees> <le_nombre_d_annees_de_donnees_a_telecharger>**
 
 ## IMPORTANT !
-<Ticker_de_l_action> : symbole utilisé pour décrire une action sur les marchés financiers
+<**Ticker_de_l_action**> : symbole utilisé pour décrire une action sur les marchés financiers
 
-<fréquence_des_donnees> : la fréquence d'apparition des données (jour: 1d, semaine:1wk, mois:1mo, trimestre:3mo, année:1y)
+<**fréquence_des_donnees**> : la fréquence d'apparition des données (jour: 1d, semaine:1wk, mois:1mo, trimestre:3mo, année:1y)
 
-<le_nombre_d_annees_de_donnees_a_telecharger> : l'horizon temporelle 
+<**le_nombre_d_annees_de_donnees_a_telecharger**> : l'horizon temporelle 
 
 ## Exemples
 
@@ -40,9 +40,9 @@ docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh <Ticker_de_l_act
 
 * Finalment, la commande:
   
-  docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh AAPL 3mo 100y
+  **docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh AAPL 3mo 100y**
   
-  servira à scraper les données  *trimestrielles* de l'action *APPLE* sur *100 années*.
+  servira à scraper les données  **trimestrielles** de l'action **APPLE** sur **100 années**.
 
 
 
