@@ -32,13 +32,13 @@ Une fois cette commande exécutée, il vous est renvoyé l'**url du Streamlit** 
 
 ## Exemples
 
-* AAPL pour le ticker d'Apple; TSLA pour le ticker de TESLA; ^GSPC pour le SP500; GOOGL pour GOOGLE; SBUX pour l'action Starbucks; etc.
+* **AAPL** pour le ticker d'Apple; **TSLA** pour le ticker de TESLA; **^GSPC** pour le SP500; **GOOGL** pour GOOGLE; **SBUX** pour l'action Starbucks; etc.
 
-* Il est aussi possible de scrapper les données de cryptomonnaies BTC-USD pour le bitcoin; ETH-USD pour l'Ethereum USD; etc.
+* Il est aussi possible de scrapper les données de cryptomonnaies **BTC-USD** pour le bitcoin USD; **ETH-USD** pour l'Ethereum USD; etc.
 
-* pour la fréquence, si vous voulez des données trimestrielles, vous mettrez "3mo"
+* pour la fréquence, si vous voulez des données trimestrielles, vous mettrez **"3mo"**
 
-* Et si vous voulez collecter ces données sur 200 ans , il faudrait ajouter "200y"
+* Et si vous voulez collecter ces données sur 200 ans , il faudrait ajouter **"200y"**
 
 * Finalment, la commande:
   
