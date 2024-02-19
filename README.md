@@ -39,7 +39,9 @@ docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh <Ticker_de_l_act
 * Et si , vous voulez collecter ce données sur 200 ans , il faudrait ajouter "200y"
 
 * Finalment, la commande:
+  
   docker run -p 9191:9191 yohanamuah/investai ./main_collector.sh AAPL 3mo 100y
+  
   servira à scraper les données  *trimestrielle* de l'action *APPLE* sur *100 années*.
 
 
